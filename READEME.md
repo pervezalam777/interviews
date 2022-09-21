@@ -9,7 +9,7 @@
 ## `Question`: Where do you store the auth token
 - Depends
 - If we are talking about stateless session where authentication token is send to client (mostly as JWT), it can be stored in the following way
-  - Read only cookies
+  - HTTP only cookies (Preferred)
   - localStorage: for long term use
   - sessionStorage: till the time browser tab is open
 
